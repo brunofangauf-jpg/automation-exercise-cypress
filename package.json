@@ -1,0 +1,15 @@
+{
+  "name": "automation-exercise-cypress",
+  "version": "1.0.0",
+  "description": "Suite de pruebas automatizadas con Cypress para Automation Exercise",
+  "scripts": {
+    "test": "cypress run --browser chrome",
+    "cypress:open": "cypress open"
+  },
+  "author": "Bruno Fangauf",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.19.0"
+  }
+}
